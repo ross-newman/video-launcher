@@ -26,7 +26,9 @@ Uninstallation:
 ![Launcher screenshot](abaco/Abaco-launcher01.png)
 
 Launcher running on TK1
+
 ![Temp sensing](abaco/Abaco-launcher02.png)
 
 Temperture sensing on the TK1
+
 ![Abaco stripe](abaco/Abaco Footer1000x100.png)

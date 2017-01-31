@@ -32,3 +32,10 @@ Launcher running on TK1
 Temperture sensing on the TK1
 
 ![Abaco stripe](abaco/Abaco Footer1000x100.png)
+
+# Links
+* [Abaco Systems](http://abaco.com)
+* [eLinux TX1](http://elinux.org/Jetson_TX1)
+* [Nvidia devtalk](https://devtalk.nvidia.com/default/board/164/)
+* [Abaco Systems MC10K1 - Tegra TK1 Mini COM Express module](https://www.abaco.com/products/mcom10-k1-mini-com-express)
+* [Abaco Systems GRA113 - Maxwel GPGPU 3U VPX](https://www.abaco.com/products/gra113-graphics-board)

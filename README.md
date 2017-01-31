@@ -1,7 +1,7 @@
 ![Abaco stripe](abaco/Abaco_background-1000x275.png)
 
 # abaco-launcher
-Python application launcher for gstreamer RTP pipelines.
+Python application launcher for gstreamer RTP pipelines. Supports the Nvidia embedded Tegra products including the TK1 and TX1 SoM as well as Abaco Systems [MC10K1](https://www.abaco.com/products/mcom10-k1-mini-com-express) TK1 (Type 10) COM Express module.
 
 # Project goals
 - [x] Implement portable GUI gstreamer interface

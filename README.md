@@ -16,25 +16,29 @@ Some additional features that are planned.
 - [ ] Parametrize launcher programs (read in demos from file).
 
 # Installation
-Install the dependancies:
-
-    $ sudo apt-get install apt-get install python-imaging-tk gnuplot uuid-runtime
 Clone the code:
 
     $ git clone https://github.com/ross-abaco/abaco-launcher
-Run the Launcher without installing:
-
-    $cd ./opt/abaco/launcher
-    $ ./recorder.py
-Installing the desktop shortcut:
+## Automated installation
+For automated installation with the desktop shortcut run the makefile:
 
     $ cd ./abaco-launcher
     $ make install
-Once installed the launcher can be invoked from the desktop shortcut.
-   
-Uninstallation:
+For Uninstallation run:
 
     $ make uninstall
+    $ make uninstall-apt # To remove any dependant apt-get packages
+Once installed the launcher can be invoked from the desktop shortcut.
+
+## Manual Installtion
+For manual installation then install the dependancies:
+
+    $ sudo apt-get install apt-get install python-imaging-tk gnuplot uuid-runtime
+Run the Launcher without installing:
+
+    $ cd ./opt/abaco/launcher
+    $ ./recorder.py
+   
 ## Screenshots
 ![Launcher screenshot](abaco/Abaco-launcher01.png)
 

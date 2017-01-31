@@ -3,6 +3,7 @@ install:
 	sudo mv /opt/abaco/Abaco.desktop ~/Desktop/.
 	sudo mv /opt/abaco/recorder/AbacoSystems_icon.png ~/Pictures/.
 	sudo chmod a+w /opt/abaco/recorder/*.csv
+	sudo chmod a+w /opt/abaco/recorder
 	sudo chmod a+w /opt/abaco/recorder/global.sh
 	sudo chmod +x ~/Desktop/Abaco*
 	sudo chown $(USER):$(USER) ~/Desktop/Abaco.desktop

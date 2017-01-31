@@ -28,6 +28,7 @@ export SERIAL_PORT="/dev/ttyACM0"
 #Visionworks settings
 export VISIONWORKS_CAMERA="device://camera0"
 # Encoder settings
+export WEBCAM="/dev/video1"
 export QUALITY_LEVEL=$5
 export BITRATE=$6
 export LOW_LATENCY=$7

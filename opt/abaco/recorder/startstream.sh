@@ -17,7 +17,7 @@ esac
 case $1 in 
 Webcam)
   export RATE=30 # camera only supports 30 so override global.sh
-  export SOURCE="v4l2src do-timestamp=true io-mode=1 ! videoscale ! videoconvert "
+  export SOURCE="v4l2src device=${WEBCAM} do-timestamp=true io-mode=1 ! videoscale ! videoconvert "
 ;;
 Synthetic)
   export SOURCE="videotestsrc pattern=$2 do-timestamp=true is-live=1 horizontal-speed=1"
@@ -43,8 +43,10 @@ if [ $6 == "streaming" ]
 then
   case $4 in 
   raw)
-    echo "Starting RAW test stream..."
+    echo "Starting RAW test stream...."
     gst-launch-1.0 -q ${SOURCE} ! "video/x-raw, width=${WIDTH}, height=${HEIGHT}, framerate=${RATE}/1, format=(string)UYVY" !  tee name=t ! queue ! rtpvrawpay ! udpsink host=${IPADDR} port=${PORT} t. ! xvimagesink sync=false $GST_DEBUG &
+    echo "gst-launch-1.0 -q ${SOURCE} ! \"video/x-raw, width=${WIDTH}, height=${HEIGHT}, framerate=${RATE}/1, format=(string)UYVY\" !  tee name=t ! queue ! rtpvrawpay ! udpsink host=${IPADDR} port=${PORT} t. ! xvimagesink sync=false $GST_DEBUG"
+    
     ;;
   h.264)
     echo "Starting H.264 test stream (${CONTROL_RATE})....."

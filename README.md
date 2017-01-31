@@ -3,23 +3,23 @@
 # abaco-launcher
 Python application launcher for gstreamer RTP pipelines.
 # Installation
-Install the dependancies
+Install the dependancies:
 
     $ sudo apt-get install apt-get install python-imaging-tk gnuplot uuid-runtime
-Clone the code.
+Clone the code:
 
     $ git clone https://github.com/ross-abaco/abaco-launcher
-Run the Launcher without installing
+Run the Launcher without installing:
 
     $cd ./opt/abaco/launcher
     $ ./recorder.py
-Installing the desktop shortcut
+Installing the desktop shortcut:
 
     $ cd ./abaco-launcher
     $ make install
 Once installed the launcher can be invoked from the desktop shortcut.
    
-Uninstallation
+Uninstallation:
 
     $ make uninstall
 ## Screenshots

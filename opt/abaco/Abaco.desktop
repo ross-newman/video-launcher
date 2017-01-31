@@ -7,5 +7,5 @@ Exec=/opt/abaco/recorder/record.py
 Terminal=false
 Type=Application
 StartupNotify=true
-Icon=/opt/abaco/recorder/AbacoSystems_icon.png
+Icon=/home/ubuntu/Pictures/AbacoSystems_icon.png
 Categories=GNOME;Video;Recorder;

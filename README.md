@@ -1,4 +1,4 @@
-![Abaco stripe](abaco/Abaco Footer1000x100.png)
+![Abaco stripe](abaco/Abaco_background-1000x275.png)
 
 # abaco-launcher
 Python application launcher for gstreamer RTP pipelines.

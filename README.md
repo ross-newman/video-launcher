@@ -8,7 +8,7 @@ Install the dependancies
     sudo apt-get install apt-get install python-imaging-tk gnuplot uuid-runtime
 Clone the code.
 
-    git clone https://github.com/ross-abaco/rtp-payloader
+    git clone https://github.com/ross-abaco/abaco-launcher
 
 Run the Launcher
 

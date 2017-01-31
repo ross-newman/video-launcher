@@ -15,7 +15,6 @@ Run the Launcher
     cd ./opt/abaco/launcher
     ./recorder.py
 ## Screenshot
-    git clone https://github.com/ross-abaco/rtp-payloader
 ![Launcher screenshot](abaco/Abaco-launcher01.png)
 
 ![Temp sensing](abaco/Abaco-launcher02.png)

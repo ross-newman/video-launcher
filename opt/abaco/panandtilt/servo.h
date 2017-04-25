@@ -9,9 +9,9 @@
 class Servo 
 {
 public:
-	int init_serial(char *port);
+  void init_serial(char *port);
   int write_serial(void *data, int size);
-	void close_serial(void);
+  void close_serial(void);
 private:
 #ifdef WIN32
   HANDLE hComm;

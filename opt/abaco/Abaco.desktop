@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=Abaco Tegra X1 Demos
-X-GNOME-FullName=Abaco Systems X1 Video streaming demonstration
-Comment=Take videos with your webcam, with fun graphical effects
-Keywords=video;webcam;
-Exec=/opt/abaco/recorder/record.py
-Terminal=false
-Type=Application
-StartupNotify=true
-Icon=/home/ubuntu/Pictures/AbacoSystems_icon.png
+Name=Abaco Tegra X2 Demos 
+X-GNOME-FullName=Abaco Systems TX2 Video streaming demonstration 
+Comment=Take videos with your webcam, with fun graphical effects 
+Keywords=video;webcam; 
+Exec=/opt/abaco/recorder/record.py 
+Terminal=false 
+Type=Application 
+StartupNotify=true 
+Icon=/usr/share/icons/AbacoSystems_icon.png
 Categories=GNOME;Video;Recorder;

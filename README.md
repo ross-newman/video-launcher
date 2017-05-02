@@ -33,7 +33,7 @@ Once installed the launcher can be invoked from the desktop shortcut.
 ## Manual Installtion
 For manual installation then install the dependancies:
 
-    $ sudo apt-get install apt-get install python-imaging-tk gnuplot uuid-runtime
+    $ sudo apt-get install python-imaging-tk gnuplot uuid-runtime
 Run the Launcher without installing:
 
     $ cd ./opt/abaco/launcher

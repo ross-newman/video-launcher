@@ -1,6 +1,4 @@
-![Abaco stripe](abaco/Abaco_background-1000x275.png)
-
-# abaco-launcher
+# video-launcher
 Python application launcher for gstreamer RTP pipelines. Supports the Nvidia embedded Tegra products including the TK1 and TX1 SoM as well as Abaco Systems [MC10K1](https://www.abaco.com/products/mcom10-k1-mini-com-express) TK1 (Type 10) COM Express module.
 
 # Project goals
@@ -55,10 +53,7 @@ Built in is support for a Polulu servo controller to drive a pan and tilt head l
 > note: Need to add more info about how to drive this.
 
 # Links
-* [Abaco Systems](http://abaco.com)
+* [Gstreamer](https://gstreamer.freedesktop.org/)
 * [eLinux TX1](http://elinux.org/Jetson_TX1)
 * [Nvidia devtalk](https://devtalk.nvidia.com/default/board/164/)
-* [Abaco Systems MC10K1 - Tegra TK1 Mini COM Express module](https://www.abaco.com/products/mcom10-k1-mini-com-express)
-* [Abaco Systems GRA113 - Maxwel GPGPU 3U VPX](https://www.abaco.com/products/gra113-graphics-board)
 
-![Abaco stripe](abaco/Abaco Footer1000x100.png)
